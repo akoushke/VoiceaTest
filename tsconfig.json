@@ -1,0 +1,16 @@
+{
+  "extends": "@tsconfig/node12/tsconfig.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "outDir": "docs",
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "noEmitOnError": false,
+    "noImplicitAny": false,
+    "types": ["node"],
+    "typeRoots": [
+			"./types",
+		],
+  }
+}

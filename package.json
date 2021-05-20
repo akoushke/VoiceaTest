@@ -1,0 +1,22 @@
+{
+  "name": "voiceatest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "compile": "tsc --project tsconfig.json",
+    "start": "WEBEX_LOG_LEVEL=\"silent\" nodemon --no-stdin src/index.ts"
+  },
+  "devDependencies": {
+    "@tsconfig/node12": "^1.0.7",
+    "@types/node": "^15.3.1",
+    "ts-node": "^9.1.1",
+    "tsc": "^2.0.3",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "@wxsd/webex-transcription": "^1.0.1",
+    "webex": "^1.120.0",
+    "window": "^4.2.7"
+  }
+}
